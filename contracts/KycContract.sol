@@ -1,6 +1,7 @@
-pragma solidity ^0.6.0;
+pragma solidity 0.6.1;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
+
+import "@openzeppelin/contracts/ownership/Ownable.sol";
 
 contract KycContract is Ownable {
     mapping(address => bool) allowed;
